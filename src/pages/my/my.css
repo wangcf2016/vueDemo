@@ -1,0 +1,221 @@
+#app{
+	margin-top: 0;
+}
+.tabbar-five-top{
+	background-color: #3c77ff;
+    height: 220px;
+    padding: 35px;
+    text-align: left;
+    position: relative;
+}
+.tabbar-five-top-name{
+	color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    width: 100px;
+}
+.tabbar-five-top-company{
+	font-size: 14px;
+    color: #fff;
+    font-style: italic;
+}
+.tabbar-five-top-phone{
+	color: #fff;
+    background-color: #6392ff;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 0 15px 0 15px;
+}
+.tabbar-five-top-img{
+	position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 35px;
+    top: 35px;
+}
+.tabbar-five-list{
+	border-radius: 30px 30px 0 0;
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+}
+.tabbar-five-list ul{
+	margin: 0;
+    padding: 35px;
+    list-style-type: none;
+}
+.tabbar-five-list ul li {
+	margin-bottom: 10px;
+}
+.span-left{
+	color: #999;
+	font-weight: bold;
+}
+.span-right{
+	float: right;
+    color: #666;
+}
+.tabbar-five-list-name{
+	display: inline-block;
+    color: #666;
+	margin-left: 5px;
+}
+.uploadImg{
+	position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 35px;
+    top: 35px;
+    z-index: 99;
+    opacity: 0;
+}
+/*意见反馈*/
+.feedback-form{
+	text-align: left;
+    padding: 0 40px;
+	margin-top: 20px;
+}
+.feedFormTitle{
+	font-size: 18px;
+    font-weight: bold;
+	color: #333;
+}
+.feedback-form textarea{
+	padding: 10px;
+    resize: none;
+    font-size: 15px;
+    height: 200px;
+    border: 1px solid #ccc;
+	margin: 5px 0;
+}
+.feedBackTip{
+	font-size: 14px;
+	color: #ccc;
+}
+.feedbackSubmit{
+	text-align: center;
+	background-color: #3c77ff;
+	padding: 15px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 30px;
+	margin-top: 30px;
+}
+/*修改密码*/
+.password-form{
+	text-align: left;
+	padding: 0 40px;
+	margin-top: 20px;
+}
+.passwordTitle{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+}
+.changeSubmit{
+	text-align: center;
+	background-color: #3c77ff;
+	padding: 15px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 30px;
+	margin-top: 30px;
+}
+.password-form .mui-input-row input{
+	padding-left: 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+/*绑定手机*/
+.phone-form{
+	text-align: left;
+	padding: 0 40px;
+	margin-top: 20px;
+}
+.phoneTitle{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+}
+.phone-form .mui-input-row input{
+	padding-left: 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+.phone-form .mui-input-row{
+	position: relative;
+}
+.getCodeClass{
+	position: absolute;
+	font-size: 14px;
+	color: #3366ff;
+	right: 0;
+	top: 10px;
+}
+.phone-form .mui-input-row .mui-icon-clear{
+	margin-right: 65px;
+}
+.phoneCodeList{
+	display: flex;
+	justify-content: space-between;
+    padding: 0 10px;
+	position: relative;
+}
+.phoneCodeList>div{
+	display: inline-block;
+    background-color: #f6f5f5;
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.phone-tip-wrap{
+	width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.phoneTip-one{
+	color: #ccc;
+}
+.phoneTip-two{
+	width: 1px;
+    height: 15px;
+    background-color: #ccc;
+    display: inline-block;
+    margin: 0 3px 0 6px;
+    vertical-align: middle;
+}
+.phoneTip-three{
+	color: #3366ff;
+}
+.phoneSubmit{
+	text-align: center;
+	background-color: #3c77ff;
+	padding: 15px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 30px;
+	margin-top: 40px;
+}
+.codeInput{
+	position: absolute;
+    width: 100%;
+    height: 50px;
+    opacity: 0;
+}

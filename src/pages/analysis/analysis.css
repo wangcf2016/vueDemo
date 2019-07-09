@@ -1,0 +1,180 @@
+.my-content{
+	background-color: #fff;
+}
+.top-tab{
+	position: fixed;
+    top: 0;
+    height: 44px;
+    width: 100%;
+    text-align: left;
+}
+.top-tab-btn{
+	display: inline-block;
+    margin: 0 20px;
+    height: 44px;
+    line-height: 44px;
+    color: #999;
+	font-size: 15px;
+}
+.tabIsTrue{
+	color: #333;
+	border-bottom: 2px solid #3c77ff;
+	font-size: 18px;
+	font-weight: 500;
+}
+.top-tab-icon{
+	position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.my-content-topBtn{
+	width: 100%;
+	padding: 15px 20px;
+	text-align: left;
+	background-color: #fff;
+}
+.ana-content-topBtn-list{
+	width: 75px;
+    height: 30px;
+    background-color: #ebebeb;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 11px;
+}
+.my-content-topBtn .ana-content-topBtn-list:last-child{
+	margin-right: 0;
+}
+/*侧边筛选*/
+.screenMask{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+}
+.screenWran{
+	position: fixed;
+    width: 310px;
+    background-color: #fff;
+	right: 0;
+    bottom: 0;
+    z-index: 999;
+	top: 44px;
+}
+.screen-content{
+    padding: 40px 20px 10px 20px;
+}
+.screen-content-title{
+	width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+	color: #333;
+}
+.screen-list-wrap{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.screen-list{
+	width: 85px;
+    height: 33px;
+    background-color: #ebebeb;
+    line-height: 33px;
+    margin-top: 15px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.screen-foot{
+	position: absolute;
+    bottom: 25px;
+    width: 100%;
+}
+.screen-foot-yes{
+	display: inline-block;
+    width: 110px;
+    height: 45px;
+    background-color: #3c77ff;
+    line-height: 45px;
+    color: #fff;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+.screen-foot-no{
+	display: inline-block;
+    width: 110px;
+    height: 45px;
+    background-color: #cccccc;
+    line-height: 45px;
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.activeBtn{
+	background-color: #3c77ff;
+	color: #fff;
+}
+.screen-selectTime-wrap{
+	text-align: left;
+	margin-top: 15px;
+}
+.select-start-time{
+	margin: 0;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    color: #ccc;
+    font-size: 15px;
+    border-radius: 20px;
+	text-align: center;
+}
+.select-end-time{
+	margin: 0;
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f4f4f4;
+	border: 1px solid #dcdcdc;
+	color: #ccc;
+	font-size: 15px;
+	border-radius: 20px;
+	text-align: center;
+	float: right;
+}
+.selectTime-line{
+	display: inline-block;
+    width: 20px;
+    height: 1px;
+    background-color: #999;
+    vertical-align: middle;
+}
+.screen-selectReport-wrap{
+	position: relative;
+    text-align: left;
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+}
+.screen-selectReport-wrap>p{
+	color: #3c77ff;
+	margin: 0;
+}
+.screen-selectReport-wrap>span{
+	position: absolute;
+    right: 0;
+    top: 13px;
+	color: #666;
+}

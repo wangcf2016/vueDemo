@@ -1,0 +1,56 @@
+.formWrap{
+	padding: 40px;
+    text-align: left;
+}
+.formLabel{
+	font-size: 18px;
+    font-weight: bold;
+	color: #333;
+}
+.mui-input-row input {
+	border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    padding-left: 0 !important;
+	font-size: 14px;
+}
+.forgotPassword{
+	color: #3c77ff;
+    float: right;
+    font-size: 16px;
+	display: inline-block;
+}
+.loginBtn{
+	text-align: center;
+    background-color: #3c77ff;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+	margin-top: 70px;
+}
+.formWrap-password {
+	position: relative;
+}
+.formWrap-password .mui-icon-eye{
+	position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 22px;
+}
+
+.clearIcon{
+	position: absolute;
+    right: 35px;
+    top: 10px;
+    padding: 0 5px;
+    font-size: 20px !important;
+}
+.line{
+	height: 15px;
+	width: 1px;
+	position: absolute;
+	right: 32px;
+	top: 14px;
+	background-color: #666;
+}
