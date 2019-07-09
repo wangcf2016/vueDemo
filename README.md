@@ -24,4 +24,14 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 先上点效果图：
 
-![image]()
+![image](https://github.com/wangcf2016/vueDemo/blob/master/tu1.png)
+
+![image](https://github.com/wangcf2016/vueDemo/blob/master/tu2.png)
+
+![image](https://github.com/wangcf2016/vueDemo/blob/master/tu3.png)
+
+![image](https://github.com/wangcf2016/vueDemo/blob/master/tu4.png)
+
+![image](https://github.com/wangcf2016/vueDemo/blob/master/tu5.png)
+
+![image](https://github.com/wangcf2016/vueDemo/blob/master/tu6.png)
